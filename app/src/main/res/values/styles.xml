@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicator">@null</item>
+        <item name="android:background">@drawable/tab_layout_background</item>
+        <item name="tabSelectedTextColor">@color/text_grey3</item>
+        <item name="tabTextColor">@color/text_grey</item>
+        <item name="tabBackground">@drawable/tabs_selector</item>
+    </style>
+    <style name="Widget.GSNStyles.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:elevation">5dp</item>
+        <item name="cardElevation">5dp</item>
+    </style>
+    <style name="Widget.GSNStyles.CardView.TextFieldContainer">
+        <item name="cardElevation">5dp</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/fields_background</item>
+        <item name="backgroundColor">@color/fields_background</item>
+        <item name="color">@color/fields_background</item>
+    </style>
+    <style name="Widget.GSNStyles.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintEnabled">false</item>
+        <item name="expandedHintEnabled">false</item>
+        <item name="endIconTint">?attr/colorPrimary</item>
+        <item name="endIconMode">none</item>
+        <item name="android:textColorHint">@color/text_grey</item>
+        <item name="suffixTextColor">?attr/colorOnSurface</item>
+
+    </style>
+    <style name="SpinnerItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MyCalendarTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="android:colorBackground">@color/primary_color</item>
+    </style>
+
+
+</resources>

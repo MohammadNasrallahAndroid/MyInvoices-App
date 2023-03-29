@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MaliaAssignment</string>
+    <string name="username_placeholder">Username</string>
+    <string name="enter_username">Enter Your Username</string>
+    <string name="password_placeholder">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="select_language">Select Language</string>
+    <string name="please_select_language">Please select a language first</string>
+    <string name="username_password_not_empty">Username and Password should not be empty</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="italian">Italian</string>
+    <string name="spanish">Spanish</string>
+    <string name="login_successful">login successful</string>
+    <string name="admin">admin</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="sign_in">Sign In</string>
+    <string name="save">Save</string>
+    <string name="new_invoice">New Invoice</string>
+    <string name="username_password_dont_match">Username and password don\'t match</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="fill_all_fields">Please fll all fields</string>
+    <string name="invoice_saved">invoice successfully saved</string>
+    <string name="invoice_save_failed">Something went wrong</string>
+</resources>
