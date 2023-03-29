@@ -1,7 +1,7 @@
 package com.mohammadnasrallah.maliaassignment.app.ui.viewmodels;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.MenuItemRepository;
 import com.mohammadnasrallah.maliaassignment.domain.MenuItem;
+import com.mohammadnasrallah.maliaassignment.domain.repository.MenuItemRepository;
 
 import java.util.List;
 

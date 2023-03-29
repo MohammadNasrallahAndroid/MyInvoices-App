@@ -1,7 +1,7 @@
 package com.mohammadnasrallah.maliaassignment.app.ui.viewmodelfactory;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.MenuItemRepository;
 import com.mohammadnasrallah.maliaassignment.app.ui.viewmodels.HomeViewModel;
+import com.mohammadnasrallah.maliaassignment.domain.repository.MenuItemRepository;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;

@@ -1,7 +1,9 @@
 package com.mohammadnasrallah.maliaassignment.app.ui.adapters;
 
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.mohammadnasrallah.maliaassignment.R;
 import com.mohammadnasrallah.maliaassignment.domain.MenuItem;
@@ -9,10 +11,6 @@ import com.mohammadnasrallah.maliaassignment.domain.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
-
-import android.view.View;
-import android.widget.TextView;
-
 import androidx.recyclerview.widget.RecyclerView;
 
 public class MenuListAdapter extends ListAdapter<MenuItem, MenuListAdapter.MenuViewHolder> {

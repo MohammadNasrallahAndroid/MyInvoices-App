@@ -11,7 +11,6 @@ import android.widget.TextView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.mohammadnasrallah.maliaassignment.R;
 import com.mohammadnasrallah.maliaassignment.databinding.LayoutDatePickerBinding;
-import com.mohammadnasrallah.maliaassignment.databinding.LayoutTextfieldBinding;
 
 import androidx.annotation.Nullable;
 

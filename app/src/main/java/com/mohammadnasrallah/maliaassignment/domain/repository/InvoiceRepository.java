@@ -4,7 +4,6 @@ import com.mohammadnasrallah.maliaassignment.domain.Invoice;
 
 import java.util.List;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 public interface InvoiceRepository {

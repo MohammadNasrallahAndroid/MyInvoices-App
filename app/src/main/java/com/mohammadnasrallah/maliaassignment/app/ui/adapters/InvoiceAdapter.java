@@ -8,13 +8,13 @@ import android.widget.TextView;
 import com.mohammadnasrallah.maliaassignment.R;
 import com.mohammadnasrallah.maliaassignment.domain.Invoice;
 
+import java.util.Locale;
+
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
-
-import java.util.Locale;
 
 public class InvoiceAdapter extends ListAdapter<Invoice, InvoiceAdapter.InvoiceViewHolder> {
 

@@ -1,7 +1,7 @@
 package com.mohammadnasrallah.maliaassignment.app.ui.viewmodelfactory;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.CustomerRepository;
 import com.mohammadnasrallah.maliaassignment.app.ui.viewmodels.CustomerViewModel;
+import com.mohammadnasrallah.maliaassignment.domain.repository.CustomerRepository;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;

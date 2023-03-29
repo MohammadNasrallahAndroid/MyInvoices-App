@@ -1,7 +1,5 @@
 package com.mohammadnasrallah.maliaassignment.domain;
 
-import java.util.Objects;
-
 public class MenuItem {
     private int id;
     private String title;

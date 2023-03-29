@@ -3,9 +3,9 @@ package com.mohammadnasrallah.maliaassignment.domain.repositoryimpl;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.CustomerRepository;
 import com.mohammadnasrallah.maliaassignment.data.DBHelper;
 import com.mohammadnasrallah.maliaassignment.domain.Customer;
+import com.mohammadnasrallah.maliaassignment.domain.repository.CustomerRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +17,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
         this.dbHelper = dbHelper;
     }
     @Override
+    //get customers from the database
     public List<Customer> getCustomerList() {
         List<Customer> customers = new ArrayList<>();
         SQLiteDatabase db = dbHelper.getReadableDatabase();

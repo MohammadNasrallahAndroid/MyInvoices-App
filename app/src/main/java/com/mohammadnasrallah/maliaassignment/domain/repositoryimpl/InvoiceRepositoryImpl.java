@@ -4,14 +4,13 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.InvoiceRepository;
 import com.mohammadnasrallah.maliaassignment.data.DBHelper;
 import com.mohammadnasrallah.maliaassignment.domain.Invoice;
+import com.mohammadnasrallah.maliaassignment.domain.repository.InvoiceRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 public class InvoiceRepositoryImpl implements InvoiceRepository {
@@ -22,6 +21,7 @@ public class InvoiceRepositoryImpl implements InvoiceRepository {
         this.dbHelper = dbHelper;
     }
     @Override
+    //get invooices from database
     public MutableLiveData<List<Invoice>> getInvoiceList(int customerId) {
         MutableLiveData<List<Invoice>> invoicesLiveData = new MutableLiveData<>();
         List<Invoice> invoices = new ArrayList<>();
@@ -52,6 +52,7 @@ public class InvoiceRepositoryImpl implements InvoiceRepository {
     }
 
     @Override
+    //save the newly added invoice into the database
     public Boolean saveInvoice(double amount, String date, int customerId) {
          Invoice invoice = new Invoice(customerId, amount, date);
         SQLiteDatabase db = dbHelper.getReadableDatabase();
@@ -68,6 +69,7 @@ public class InvoiceRepositoryImpl implements InvoiceRepository {
         return success;
     }
     @Override
+    //refresh the list of invoices after new ones have been added
     public void refreshInvoiceList(MutableLiveData<List<Invoice>> invoicesLiveData, int customerId) {
         List<Invoice> invoices = new ArrayList<>();
         SQLiteDatabase db = dbHelper.getReadableDatabase();

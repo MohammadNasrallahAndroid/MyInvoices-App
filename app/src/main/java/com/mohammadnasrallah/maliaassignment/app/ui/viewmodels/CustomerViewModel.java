@@ -1,8 +1,8 @@
 package com.mohammadnasrallah.maliaassignment.app.ui.viewmodels;
 
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.CustomerRepository;
 import com.mohammadnasrallah.maliaassignment.domain.Customer;
+import com.mohammadnasrallah.maliaassignment.domain.repository.CustomerRepository;
 
 import java.util.List;
 

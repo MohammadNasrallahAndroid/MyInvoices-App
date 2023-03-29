@@ -4,9 +4,9 @@ package com.mohammadnasrallah.maliaassignment.domain.repositoryimpl;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.MenuItemRepository;
 import com.mohammadnasrallah.maliaassignment.data.DBHelper;
 import com.mohammadnasrallah.maliaassignment.domain.MenuItem;
+import com.mohammadnasrallah.maliaassignment.domain.repository.MenuItemRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +20,7 @@ public class MenuItemRepositoryImpl implements MenuItemRepository {
     }
 
     @Override
+    // get the list of menu items from the database
     public List<MenuItem> getMenuItems() {
         List<MenuItem> menuItems = new ArrayList<>();
         SQLiteDatabase db = dbHelper.getReadableDatabase();

@@ -1,7 +1,7 @@
 package com.mohammadnasrallah.maliaassignment.app.ui.viewmodelfactory;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.InvoiceRepository;
 import com.mohammadnasrallah.maliaassignment.app.ui.viewmodels.NewInvoiceViewModel;
+import com.mohammadnasrallah.maliaassignment.domain.repository.InvoiceRepository;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;

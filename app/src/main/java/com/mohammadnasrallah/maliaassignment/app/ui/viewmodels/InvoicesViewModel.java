@@ -1,7 +1,7 @@
 package com.mohammadnasrallah.maliaassignment.app.ui.viewmodels;
 
-import com.mohammadnasrallah.maliaassignment.domain.repository.InvoiceRepository;
 import com.mohammadnasrallah.maliaassignment.domain.Invoice;
+import com.mohammadnasrallah.maliaassignment.domain.repository.InvoiceRepository;
 
 import java.util.List;
 
